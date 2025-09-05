@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-background: var(--background);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+}
+
+:root{
+  --background: #fff;
+  --border: #000;
+  --text: #000;
+  --muted: #7b7b7b;
+}
+
+.dark {
+  --background: #000;
+  --border: #fff;
+  --text: #fff;
+  --muted: #7b7b7b;
+}

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.mycrack {
+    @apply bg-amber-500 rounded-lg;
+    color: blueviolet;
+}
