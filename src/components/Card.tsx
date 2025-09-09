@@ -4,7 +4,7 @@ import type { CardProps } from '../types/cardType';
 const Card = ({card}: CardProps) => {
 
   return (
-    <div className="w-80 h-[350px] flex flex-col justify-evenly bg-linear-to-bl from-violet-500 to-fuchsia-500  shadow-white-xl">
+    <div className="w-80 h-[350px] flex flex-col justify-evenly bg-white/5">
         <p className="text-center text-text font-mono">{card.title}</p>
         <div className="flex items-baseline justify-end-safe">
             <p className="font-sans text-2xl font-bold text-a">${card.price}</p>
