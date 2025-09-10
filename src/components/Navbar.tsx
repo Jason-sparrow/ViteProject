@@ -26,8 +26,8 @@ const Navbar = ({ theme, setTheme }: NavbarProps) => {
   return (
     <>
       <div className={theme}>
-        <div className="flex items-center justify-between p-2 bg-amber-300">
-          <div className="mx-4 ">
+        <div className="flex items-center justify-between p-2 bg-gradient-to-r from-purple-950 to-blue-400 to-slate-400">
+          <div className="mx-4 text-text">
             Logo
           </div>
 

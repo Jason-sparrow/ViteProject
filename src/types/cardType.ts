@@ -9,4 +9,8 @@ export interface CardData {
 
 export interface CardProps {
   card: CardData;
+  position: 'left' | 'center' | 'right';
+  isPopular: boolean;
+  onHover: (isHovered: boolean) => void;
+  isHovered: boolean;
 }
